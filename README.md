@@ -1,42 +1,52 @@
-*** components
+# record
+
+https://user-images.githubusercontent.com/97032929/235859745-84b46f47-213e-424b-b842-e68976321f63.mov
+
+# React  Lv.4 : My Todo List 만들기
+
+## 구현기능
+- UI 구현하기
+- 본문 리스트 조회 하기
+- 본문 조회 하기
+- 본문 추가 하기
+- 본문 삭제 하기
+- 본문 수정 하기
+
+## components
+- Comment
 - Header
-    홈 아이콘 및 홈으로 가능 기능, 머릿글
 - Layout
-    <Header> 포함
-    Layout 설정?
 - List
-     <div> todo list
-    - 제목,작성자
-    - 삭제버튼
 
+### elem
+ - Button
+ - Input
+ - Text
+  
+### home
+ - HomeBox
+ 
+### todo
+ - AddTodoForm
+ - TodosList
 
-*** pages
+## pages
 - Home
 - AddTodo
 - Todos
 - Todo 
 
-*** Home
-<Layout>
-<h1> 제목 테그
-<button> AddTodo , Todos
+## redux
+### config
+ - configStore
+ 
+### modules
+ - index
+ - todoSlice
+ - todosSlice
 
-*** AddTodo
-<Layout>
-<AddTodoForm>
-    <text> or <label> 작성자, 제목, 내용
-    <textarea> 작성자, 제목, 내용
-    <button> 추가하기
-
-*** Todos
-<Layout>
-<TodosList>
-<List>
-
-*** Todo
-<Layout>
-<text> or <div> 아이디, 이전으로, 제목, 내용
-<button> 수정
-    <text> or <div> 제목
-    <textarea> 내용
-    <button> 저장
+## shared
+ - Router
+ 
+## styles
+ - GlobalStyles 
